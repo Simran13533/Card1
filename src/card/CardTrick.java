@@ -61,10 +61,7 @@ public class CardTrick {
         }
 
         // Add a lucky card (2 of Clubs) to the magicHand
-        Card luckyCard = new Card();
-        luckyCard.setValue(2);
-        luckyCard.setSuit("Clubs");
-        magicHand[0] = luckyCard;
+        
 
         scanner.close();
     }
